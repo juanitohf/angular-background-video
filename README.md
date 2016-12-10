@@ -1,5 +1,5 @@
 # angular-background-video
-It is a angularjs directive to generate video background with carouse with a single line of code. It does not require jQuery and external libraries. 
+It is a angularjs directive to generate video background with carous. It does NOT require jQuery and external libraries. 
 
 Demo: http://www.web-huertas.com:8080/angular-video-background/#/
 
