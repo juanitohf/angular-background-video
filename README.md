@@ -16,14 +16,6 @@ Step: 2
  
  angular.module('app', ['angular-video-background']);
 
-Step 3:
- 
- Initialize directive:
- 
- <div id="main">
-   <angular-html-video back-video-data="angular_Back_data"></angular-html-video>  
- </div>
-
 Step 3"
 
  Create the object which setup the video background and carousel.
@@ -47,3 +39,11 @@ Step 3"
           carouselTransitonTime: 4 // time is measured in seconds. 
 
       }
+      
+Step 4:
+ 
+ Initialize directive:
+ 
+ <div id="main">
+   <angular-html-video back-video-data="angular_Back_data"></angular-html-video>  
+ </div>
