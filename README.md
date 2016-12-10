@@ -1,24 +1,26 @@
 # angular-background-video
-It is a angularjs directive to generate video background with carouse with a single line of code. 
+It is a angularjs directive to generate video background with carouse with a single line of code. It does not require jQuery and external libraries. 
 
 Demo: http://www.web-huertas.com:8080/angular-video-background/#/
 
 
 
-Step: 1
+##Step: 1
  
  Load angular-video-background.js file:
- 
- <script src="path_file/angular-video-background.js"></script>
+ ```html
+   <script src="path_file/angular.js"></script>
+   <script src="path_file/angular-video-background.js"></script>
+```
 
-Step: 2
+##Step: 2
  inject the angular-video-background in angular.module
  ```javascript
   angular.module('app', ['angular-video-background']);
  ```
 
 
-Step 3"
+##Step 3"
 
  Create the object which setup the video background and carousel.
  
@@ -44,7 +46,7 @@ Step 3"
  ```
    
       
-Step 4:
+##Step 4:
  
  Initialize directive:
  ```html
