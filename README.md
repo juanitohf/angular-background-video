@@ -43,7 +43,9 @@ Step 3"
 Step 4:
  
  Initialize directive:
- 
+ <div>
+  <angular-html-video></angular-html-video>
+ </div>
  <div id="main">
    <angular-html-video back-video-data="angular_Back_data"></angular-html-video>  
  </div>
