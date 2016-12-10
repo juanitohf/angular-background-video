@@ -26,7 +26,7 @@ Demo: http://www.web-huertas.com:8080/angular-video-background/#/
  
  In the controller:
  ```javascript
-   $scope.angular_Back_data = {
+   $scope.options = {
           video:{
             mp4:"dist/videos/modaVideo.mp4",
             webm:"",
@@ -51,7 +51,7 @@ Demo: http://www.web-huertas.com:8080/angular-video-background/#/
  Initialize directive:
  ```html
   <div id="main">
-    <angular-html-video back-video-data="angular_Back_data"></angular-html-video>  
+    <angular-html-video back-video-data="options"></angular-html-video>  
   </div>
 ```
 
