@@ -14,7 +14,7 @@ Demo: http://www.web-huertas.com:8080/angular-video-background/#/
 ```
 
 ##Step: 2
- inject the angular-video-background in angular.module
+ inject angular-video-background in angular.module
  ```javascript
   angular.module('app', ['angular-video-background']);
  ```
@@ -22,9 +22,9 @@ Demo: http://www.web-huertas.com:8080/angular-video-background/#/
 
 ##Step 3"
 
- Create the object which setup the video background and carousel.
+ Create an object to setup the video background and carousel parameters.
  
- Inside the controller:
+ In the controller:
  ```javascript
    $scope.angular_Back_data = {
           video:{
