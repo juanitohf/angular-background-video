@@ -5,7 +5,7 @@ Demo: http://www.web-huertas.com:8080/angular-video-background/#/
 
 
 
-##Step: 1
+##Step 1
  
  Load angular-video-background.js file:
  ```html
@@ -13,14 +13,14 @@ Demo: http://www.web-huertas.com:8080/angular-video-background/#/
    <script src="path_file/angular-video-background.js"></script>
 ```
 
-##Step: 2
+##Step 2
  inject angular-video-background in angular.module
  ```javascript
   angular.module('app', ['angular-video-background']);
  ```
 
 
-##Step 3"
+##Step 3
 
  Create an object to setup the video background and carousel parameters.
  
@@ -46,7 +46,7 @@ Demo: http://www.web-huertas.com:8080/angular-video-background/#/
  ```
    
       
-##Step 4:
+##Step 4
  
  Initialize directive:
  ```html
